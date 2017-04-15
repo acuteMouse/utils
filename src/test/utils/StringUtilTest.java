@@ -11,12 +11,12 @@ public class StringUtilTest {
     @Test
     public void testIsNull01(){
         String s=null;
-        Assert.assertTrue(StringUtil.isNotNull(s));
+        Assert.assertFalse(StringUtil.isNotNull(s));
     }
     @Test
     public void testIsNull02(){
         String s="    ";
-        Assert.assertTrue(StringUtil.isNotNull(s));
+        Assert.assertFalse(StringUtil.isNotNull(s));
     }
     @Test
     public void testIsNull03(){
