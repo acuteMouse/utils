@@ -36,6 +36,9 @@ public class Worker {
         this.birthday = birthday;
     }
 
+    public Worker() {
+    }
+
     public Worker(String name, Integer id, Date birthday) {
         this.name = name;
         this.id = id;
