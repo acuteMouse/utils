@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="54">
+              <caret line="69" column="75" lean-forward="false" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtilTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JsonUtilTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="159">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -313,7 +313,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -930,7 +930,7 @@
       <workItem from="1492263118672" duration="1486000" />
       <workItem from="1492265853400" duration="859000" />
       <workItem from="1492266794768" duration="112000" />
-      <workItem from="1492323104555" duration="11042000" />
+      <workItem from="1492323104555" duration="11366000" />
     </task>
     <task id="LOCAL-00001" summary="修改readme">
       <created>1492259815432</created>
@@ -967,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492352894665</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JsonUtil.toList()改为泛型参数">
+      <created>1492353020708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492353020708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1003,7 +1010,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21406000" />
+    <option name="totallyTimeSpent" value="21730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,7 +1091,8 @@
     <MESSAGE value="新增单元测试" />
     <MESSAGE value="新增日期工具类和json工具类" />
     <MESSAGE value="json工具类新增由字符串转成list的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="json工具类新增由字符串转成list的方法" />
+    <MESSAGE value="JsonUtil.toList()改为泛型参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="JsonUtil.toList()改为泛型参数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1360,21 +1368,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="69" column="75" lean-forward="false" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
