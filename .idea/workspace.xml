@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" afterPath="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" />
-    </list>
+    <list default="true" id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../commonutils/out/" />
     <ignored path="$PROJECT_DIR$/../commonutils/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -930,7 +927,7 @@
       <workItem from="1492263118672" duration="1486000" />
       <workItem from="1492265853400" duration="859000" />
       <workItem from="1492266794768" duration="112000" />
-      <workItem from="1492323104555" duration="11366000" />
+      <workItem from="1492323104555" duration="11445000" />
     </task>
     <task id="LOCAL-00001" summary="修改readme">
       <created>1492259815432</created>
@@ -974,7 +971,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492353020708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改注释">
+      <created>1492353340498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492353340498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1010,7 +1014,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21730000" />
+    <option name="totallyTimeSpent" value="21809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1092,7 +1096,8 @@
     <MESSAGE value="新增日期工具类和json工具类" />
     <MESSAGE value="json工具类新增由字符串转成list的方法" />
     <MESSAGE value="JsonUtil.toList()改为泛型参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsonUtil.toList()改为泛型参数" />
+    <MESSAGE value="修改注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
