@@ -2,11 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zy</groupId>
-    <artifactId>common.utils</artifactId>
-    <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>common.utils Maven Webapp</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>com.zy.utils</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0</version>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -38,11 +36,18 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.25</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
 
 
     </dependencies>
     <build>
-        <finalName>common.utils</finalName>
+        <finalName>com.zy.utils</finalName>
     </build>
-    
+
 </project>

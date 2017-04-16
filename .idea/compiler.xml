@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="commonutils" target="1.5" />
+      <module name="commonutils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

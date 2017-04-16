@@ -1,3 +1,5 @@
+package utils;
+
 import org.apache.commons.collections4.map.HashedMap;
 import org.junit.Assert;
 import org.junit.Test;
