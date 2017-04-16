@@ -71,7 +71,7 @@ public class JsonUtil {
      * @return
      * @throws IOException
      */
-    public static <T> List<T> toList(String json, TypeReference<List<Worker>> list ) throws java.io.IOException {
+    public static <T> List<T> toList(String json, TypeReference<List<T>> list ) throws java.io.IOException {
         return JsonUtil.getMapper().readValue(json, list);
     }
 

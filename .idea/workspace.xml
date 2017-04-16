@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/src/main/java/Model/Worker.java" afterPath="$PROJECT_DIR$/../commonutils/src/main/java/Model/Worker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" afterPath="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java" afterPath="$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../commonutils/out/" />
     <ignored path="$PROJECT_DIR$/../commonutils/target/" />
@@ -53,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+            <state relative-caret-position="143">
+              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtilTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonUtilTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="234">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -113,8 +111,8 @@
         <option value="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar!/com/fasterxml/jackson/core/JsonFactory.class" />
         <option value="$PROJECT_DIR$/../commonutils/pom.xml" />
         <option value="$PROJECT_DIR$/../commonutils/src/main/java/Model/Worker.java" />
-        <option value="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" />
         <option value="$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java" />
+        <option value="$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java" />
       </list>
     </option>
   </component>
@@ -361,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JsonUtilTest">
+  <component name="RunManager" selected="JUnit.JsonUtilTest.toList">
     <configuration default="false" name="JsonUtilTest.getMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -910,8 +908,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonUtilTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonUtilTest.toList" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonUtilTest.toList" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonUtilTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.JsonUtilTest.toObject" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.JsonUtilTest.toJson" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.JsonUtilTest.getMapper" />
@@ -932,7 +930,7 @@
       <workItem from="1492263118672" duration="1486000" />
       <workItem from="1492265853400" duration="859000" />
       <workItem from="1492266794768" duration="112000" />
-      <workItem from="1492323104555" duration="10910000" />
+      <workItem from="1492323104555" duration="11042000" />
     </task>
     <task id="LOCAL-00001" summary="修改readme">
       <created>1492259815432</created>
@@ -962,13 +960,17 @@
       <option name="project" value="LOCAL" />
       <updated>1492327439649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="json工具类新增由字符串转成list的方法">
+      <created>1492352894665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492352894665</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsonUtilTest - 2017.04.16 at 15h 11m 04s.xml">
-      <configuration name="JsonUtilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JsonUtilTest - 2017.04.16 at 15h 11m 51s.xml">
       <configuration name="JsonUtilTest" configurationId="JUnit" />
     </history-entry>
@@ -990,6 +992,9 @@
     <history-entry file="JsonUtilTest_toList - 2017.04.16 at 22h 24m 55s.xml">
       <configuration name="JsonUtilTest.toList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JsonUtilTest_toList - 2017.04.16 at 22h 29m 20s.xml">
+      <configuration name="JsonUtilTest.toList" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="JsonUtilTest_toObject - 2017.04.16 at 15h 31m 53s.xml">
       <configuration name="JsonUtilTest.toObject" configurationId="JUnit" />
     </history-entry>
@@ -998,7 +1003,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21274000" />
+    <option name="totallyTimeSpent" value="21406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1078,7 +1083,8 @@
     <MESSAGE value="新增map检测" />
     <MESSAGE value="新增单元测试" />
     <MESSAGE value="新增日期工具类和json工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增日期工具类和json工具类" />
+    <MESSAGE value="json工具类新增由字符串转成list的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="json工具类新增由字符串转成list的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,21 +1360,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java">
+    <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/JsonUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="143">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
