@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../commonutils/src/test/utils/RequestUtilTest.java" />
+    <list default="true" id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="新增http工具类">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../commonutils/.idea/workspace.xml" />
+    </list>
+    <list id="32232b7e-ceeb-4da7-a62d-aec39e9b338b" name="Revert: 新增http工具类" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../commonutils/src/test/utils/RequestUtilTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/../commonutils/out/" />
     <ignored path="$PROJECT_DIR$/../commonutils/target/" />
@@ -32,22 +34,12 @@
       <file leaf-file-name="RequestUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/RequestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="77">
               <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#post#0;class#RequestUtil#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../commonutils/src/test/utils/RequestUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -820,6 +812,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4794d399-3131-4566-9932-f835c0b206bb" name="Default" comment="" />
+      <changelist id="32232b7e-ceeb-4da7-a62d-aec39e9b338b" name="Revert: 新增http工具类" comment="" />
       <created>1492255087558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -832,7 +825,7 @@
       <workItem from="1493123578045" duration="155000" />
       <workItem from="1493905776853" duration="3588000" />
       <workItem from="1494145921060" duration="528000" />
-      <workItem from="1494248551036" duration="993000" />
+      <workItem from="1494248551036" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="修改readme">
       <created>1492259815432</created>
@@ -897,7 +890,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494253712855</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增http工具类">
+      <created>1494253935518</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1494253935518</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -933,7 +933,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27362000" />
+    <option name="totallyTimeSpent" value="27478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -946,7 +946,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -966,8 +965,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32582322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36220473" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32508436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36220473" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275563" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1693376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1041,12 +1040,6 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../commonutils/src/test/utils/RequestUtilTest.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../commonutils/src/main/java/utils/RequestUtil.java</url>
           <line>40</line>
           <properties />
@@ -1057,12 +1050,6 @@
           <line>37</line>
           <properties />
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../commonutils/src/test/utils/RequestUtilTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../commonutils/src/main/java/utils/RequestUtil.java</url>
@@ -1152,7 +1139,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../commonutils/src/main/java/utils/RequestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state relative-caret-position="77">
           <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
