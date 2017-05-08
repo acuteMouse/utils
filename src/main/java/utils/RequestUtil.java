@@ -10,11 +10,10 @@ import java.net.URLConnection;
 
 /**
  * 功能：
- * Created by cgl on 2017/5/4 0004.
+ * Created by cgl on 2017/5/4
  */
 public class RequestUtil {
     static final String POST = "POST";
-    static final String PUT = "PUT";
     static final int CONNECTIONTOMEOUT = 1000;
 
 
@@ -40,7 +39,7 @@ public class RequestUtil {
             }
             outputStream.flush();
             reader = new BufferedReader(new InputStreamReader(connection.getInputStream(), "UTF-8"));
-            String line = "";
+            String line;
             while ((line = reader.readLine()) != null) {
                 result.append(line);
             }

@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 功能：采用Jackson 操作json
- * Created by cgl on 2017/4/16 0016.
+ * Created by cgl on 2017/4/16
  */
 public class JsonUtil {
     private static ObjectMapper mapper = null;
